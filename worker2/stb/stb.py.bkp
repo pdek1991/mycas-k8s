@@ -1,0 +1,50 @@
+from flask import Flask, render_template
+import socket
+import pyaes
+import base64
+
+app = Flask(__name__)
+
+# Define the multicast group and port
+multicast_group = '0.0.0.0'
+port = 8888
+
+# AES decryption key
+key = 'qwertyuioplkjhgd'
+
+# Create a UDP socket
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+sock.bind((multicast_group, port))
+
+decrypted_messages = []  # List to store decrypted messages
+
+def decrypt_string(key, encrypted_data):
+    block_size = 16
+    iv = pyaes.Counter(initial_value=0)
+    cipher = pyaes.AESModeOfOperationCTR(key.encode('utf-8'), counter=iv)
+    ciphertext = base64.b64decode(encrypted_data)
+    padded_plaintext = cipher.decrypt(ciphertext).decode('utf-8')
+    padding_length = ord(padded_plaintext[-1])
+    plaintext = padded_plaintext[:-padding_length]
+    return plaintext
+
+@app.route('/')
+def index():
+    return render_template('index.html', messages=decrypted_messages)
+
+def start_receiving():
+    try:
+        while True:
+            content, addr = sock.recvfrom(1024)
+            encrypted_message = content.decode('utf-8')
+            decrypted_message = decrypt_string(key, encrypted_message)
+            print('Received message:', decrypted_message)
+            decrypted_messages.append(decrypted_message)  # Add decrypted message to the list
+    except KeyboardInterrupt:
+        print("KeyboardInterrupt: Closing socket.")
+        sock.close()
+        sys.exit(0)
+
+if __name__ == '__main__':
+    start_receiving()
+    app.run(host='0.0.0.0', port=5000)

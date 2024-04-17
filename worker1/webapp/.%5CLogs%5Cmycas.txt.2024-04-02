@@ -1,0 +1,23 @@
+05-04-2024:10:11:38.175 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+05-04-2024:10:11:38.177 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Connection complete.
+05-04-2024:10:11:38.177 INFO     <BrokerConnection node_id=bootstrap-0 host=mycas-kafka-service:9092 <connected> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. 
+05-04-2024:10:11:38.325 INFO     Message sent to Kafka topic topic_mycas: 7080808080:70909090906578:10:2037-12-31
+05-04-2024:10:11:39.614 INFO     device_id: 7080808080 bskeys: 70909090906578 
+05-04-2024:10:11:39.625 INFO     Message sent to Kafka topic topic_mycas: 7080808080:70909090906578:10:2037-12-31
+05-04-2024:10:11:39.860 INFO     device_id: 7080808080 bskeys: 70909090906578 
+05-04-2024:10:45:37.891 INFO     Message sent to Kafka topic topic_mycas:7090909090:HW_KML:21:2024-05-01:2024-05-01
+05-04-2024:10:45:37.940 INFO     Message sent to Kafka topic topic_mycas:7090909090:HW_BLR:21:2024-05-01:2024-05-01
+05-04-2024:10:46:58.503 INFO     Message sent to Kafka topic topic_mycas: 7080908090:70707070700987:10:2037-12-31
+05-04-2024:10:46:58.852 INFO     device_id: 7080908090 bskeys: 70707070700987 
+05-04-2024:10:47:00.964 INFO     Message sent to Kafka topic topic_mycas: 7080908090:70707070700987:10:2037-12-31
+05-04-2024:10:47:01.354 INFO     device_id: 7080908090 bskeys: 70707070700987 
+05-04-2024:10:47:06.752 INFO     Message sent to Kafka topic topic_mycas: 7070707070:70707070700987:10:2037-12-31
+05-04-2024:10:47:06.900 INFO     device_id: 7070707070 bskeys: 70707070700987 
+05-04-2024:10:47:13.646 INFO     Message sent to Kafka topic topic_mycas:7090909090:HW_PUN:21:2024-05-07:2024-05-07
+05-04-2024:14:43:34.983 INFO     Message sent to Kafka topic topic_mycas:7090909090:HW_PUN:21:2024-05-07:2024-05-07
+05-04-2024:14:44:54.302 INFO     Message sent to Kafka topic topic_mycas:7090909090:HW_PUN:21:2024-05-07:2024-05-07
+05-04-2024:14:46:04.760 INFO     Message sent to Kafka topic topic_mycas:7090909090:HW_PUN:21:2024-05-07:2024-05-07
+05-04-2024:14:46:10.696 INFO     Message sent to Kafka topic topic_mycas: 7080908090:70909090906578:10:2037-12-31
+05-04-2024:14:46:11.146 INFO     device_id: 7080908090 bskeys: 70909090906578 
+05-04-2024:16:29:15.240 INFO     Closing the Kafka producer with 0 secs timeout.
+05-04-2024:16:29:15.241 INFO     Proceeding to force close the producer since pending requests could not be completed within timeout 0.

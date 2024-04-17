@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mycas-cycler
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mycas-cycler
+  template:
+    metadata:
+      labels:
+        app: mycas-cycler
+    spec:
+      containers:
+        - name: mycas-cycler
+          image: pdek1991/mycas_cycler:v2
+          volumeMounts:
+          - name: cycler-volume
+            mountPath: /app/cycler
+      volumes:
+        - name: cycler-volume
+          hostPath:
+            path: /app/cycler

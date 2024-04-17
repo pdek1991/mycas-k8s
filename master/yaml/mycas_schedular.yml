@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mycas-schedular
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mycas-schedular
+  template:
+    metadata:
+      labels:
+        app: mycas-schedular
+    spec:
+      containers:
+        - name: mycas-schedular
+          image: pdek1991/schedular:v2
+          volumeMounts:
+          - name: schedular-volume
+            mountPath: /app/SCHEDULAR
+      volumes:
+        - name: schedular-volume
+          hostPath:
+            path: /app/SCHEDULAR

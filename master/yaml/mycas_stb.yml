@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mycas-stb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mycas-stb
+  template:
+    metadata:
+      labels:
+        app: mycas-stb
+    spec:
+      containers:
+        - name: mycas-stb
+          image: pdek1991/mycas_stb:v2
+          volumeMounts:
+          - name: stb-volume
+            mountPath: /app/stb
+      volumes:
+        - name: stb-volume
+          hostPath:
+            path: /app/stb
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mycas-stb-service
+spec:
+  selector:
+    app: mycas-stb
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 5000
+      targetPort: 5000
+      nodePort: 30002

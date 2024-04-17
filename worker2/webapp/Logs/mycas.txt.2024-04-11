@@ -1,0 +1,665 @@
+12-04-2024:08:10:20.573 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:08:10:20.586 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Connection complete.
+12-04-2024:08:10:20.586 INFO     <BrokerConnection node_id=bootstrap-0 host=mycas-kafka-service:9092 <connected> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. 
+12-04-2024:08:10:20.674 INFO     Message sent to Kafka topic topic_mycas:7090909090:frompod:21:2024-04-17:2024-04-17
+12-04-2024:08:11:23.268 INFO     Message sent to Kafka topic topic_mycas:7090909090:frompod:21:2024-04-17:2024-04-17
+12-04-2024:08:17:27.600 INFO     Message sent to Kafka topic topic_mycas: 7080808080:3131321:test313131:44:2024-05-03
+12-04-2024:08:17:36.766 INFO     Message sent to Kafka topic topic_mycas: 7080808080:313132:test313131:44:2024-05-03
+12-04-2024:08:17:46.485 INFO     Message sent to Kafka topic topic_mycas: 7080808080:31309:test313131:44:2024-05-03
+12-04-2024:08:17:46.578 INFO     message_id: 31309, message_text: test313131, device_id: 7080808080, expiry: 2024-05-03
+12-04-2024:08:17:57.012 INFO     Message sent to Kafka topic topic_mycas:7090807060:HW_KML:21:2024-04-26:2024-04-26
+12-04-2024:08:17:57.062 INFO     Message sent to Kafka topic topic_mycas:7090807060:HW_BLR:21:2024-04-26:2024-04-26
+12-04-2024:08:18:06.321 INFO     Message sent to Kafka topic topic_mycas:7080908090:frompod:21:2024-04-26:2024-04-26
+12-04-2024:08:22:05.509 INFO     Message sent to Kafka topic topic_mycas: 7080808080:70707070700987:10:2037-12-31
+12-04-2024:08:22:05.641 INFO     device_id: 7080808080 bskeys: 70707070700987 
+12-04-2024:08:33:09.032 INFO     Message sent to Kafka topic topic_mycas:7070707070:podtest:21:2024-05-02:2024-05-02
+12-04-2024:08:38:51.819 INFO     Message sent to Kafka topic topic_mycas:7070707070:podtest:21:2024-05-02:2024-05-02
+12-04-2024:10:46:05.950 WARNING  <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connected> [IPv4 ('10.104.110.212', 9092)]> timed out after 30000 ms. Closing connection.
+12-04-2024:10:46:05.953 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connected> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 30000 ms
+12-04-2024:10:46:05.954 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:46:26.168 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+12-04-2024:10:46:26.168 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+12-04-2024:10:46:46.307 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+12-04-2024:10:46:46.307 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+12-04-2024:10:47:06.487 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+12-04-2024:10:47:06.487 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+12-04-2024:10:47:26.646 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+12-04-2024:10:47:26.646 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+12-04-2024:10:47:46.827 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+12-04-2024:10:47:46.827 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+12-04-2024:10:48:06.912 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+12-04-2024:10:48:06.913 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+12-04-2024:10:48:27.029 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+12-04-2024:10:48:27.030 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+12-04-2024:10:48:47.201 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+12-04-2024:10:48:47.201 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+12-04-2024:10:49:07.298 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+12-04-2024:10:49:07.298 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+12-04-2024:10:49:27.497 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+12-04-2024:10:49:27.497 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+12-04-2024:10:49:48.180 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+12-04-2024:10:49:48.180 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+12-04-2024:10:50:08.800 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+12-04-2024:10:50:08.800 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+12-04-2024:10:50:29.066 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+12-04-2024:10:50:29.066 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+12-04-2024:10:50:49.202 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+12-04-2024:10:50:49.202 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+12-04-2024:10:51:09.339 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+12-04-2024:10:51:09.339 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+12-04-2024:10:51:17.169 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:51:39.439 ERROR    Connection attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> timed out
+12-04-2024:10:51:39.439 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: timeout
+12-04-2024:10:51:39.439 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:51:39.552 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:52:09.537 ERROR    Connection attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> timed out
+12-04-2024:10:52:09.537 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: timeout
+12-04-2024:10:52:09.537 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:52:09.672 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:52:39.622 ERROR    Connection attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> timed out
+12-04-2024:10:52:39.622 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: timeout
+12-04-2024:10:52:39.623 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:52:39.744 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:52:40.746 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:52:40.746 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:52:40.746 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:52:40.890 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:52:41.892 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:52:41.892 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:52:41.893 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:52:42.200 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:52:45.202 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:52:45.202 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:52:45.203 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:52:45.339 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:52:46.340 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:52:46.340 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:52:46.341 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:52:46.703 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:16.513 ERROR    Connection attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> timed out
+12-04-2024:10:53:16.513 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: timeout
+12-04-2024:10:53:16.513 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:16.611 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:17.614 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:17.614 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:17.615 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:17.706 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:32.953 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:32.954 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:32.954 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:33.259 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:36.266 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:36.266 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:36.266 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:36.366 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:37.368 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:37.368 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:37.368 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:37.451 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:38.454 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:38.454 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:38.454 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:38.561 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:39.563 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:39.563 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:39.564 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:39.660 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:40.662 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:40.662 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:40.663 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:40.811 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:41.822 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:41.822 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:41.822 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:41.928 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:42.938 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:42.938 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:42.938 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:43.089 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:44.090 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:44.090 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:44.091 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:44.189 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:45.192 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:45.192 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:45.192 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:45.283 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:46.285 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:46.285 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:46.285 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:46.589 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:47.591 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:47.591 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:47.591 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:47.684 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:48.686 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:48.686 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:48.686 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:48.846 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:49.848 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:49.848 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:49.848 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:50.002 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:51.006 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:51.008 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:51.008 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:51.103 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:52.107 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:52.107 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:52.108 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:52.187 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:53.190 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:53.190 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:53.190 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:53.301 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:54.302 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:54.302 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:54.302 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:53:54.554 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:53:55.557 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:53:55.557 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:53:55.557 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:00.130 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:01.149 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:54:01.153 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:54:01.153 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:01.293 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:02.294 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:54:02.294 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:54:02.294 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:02.402 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:03.404 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:54:03.404 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:54:03.404 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:03.554 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:04.556 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:54:04.556 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:54:04.556 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:04.697 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:34.670 ERROR    Connection attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> timed out
+12-04-2024:10:54:34.670 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: timeout
+12-04-2024:10:54:34.670 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:34.996 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:38.002 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:54:38.002 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:54:38.002 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:38.120 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:39.133 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:54:39.136 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:54:39.137 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:39.299 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:42.298 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:54:42.298 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:54:42.298 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:42.441 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:43.442 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:54:43.442 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:54:43.443 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:43.601 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:46.615 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:54:46.616 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:54:46.617 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:46.717 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:47.724 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:54:47.724 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:54:47.724 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:47.834 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:48.836 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:54:48.836 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:54:48.836 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:48.938 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:49.947 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:54:49.947 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:54:49.948 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:50.051 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:51.055 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:54:51.055 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:54:51.055 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:51.188 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:52.190 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:54:52.190 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:54:52.191 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:52.325 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:55.330 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:54:55.331 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:54:55.332 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:55.437 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:56.438 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:54:56.438 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:54:56.439 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:56.544 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:54:59.551 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:54:59.556 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:54:59.556 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:54:59.675 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:00.678 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:00.679 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:00.679 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:00.770 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:01.772 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:01.772 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:01.772 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:01.904 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:02.928 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:02.929 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:02.929 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:03.049 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:04.055 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:04.055 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:04.056 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:04.165 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:05.170 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:05.171 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:05.171 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:05.626 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:06.629 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:06.630 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:06.632 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:06.743 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:07.753 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:07.753 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:07.754 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:07.897 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:08.899 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:08.899 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:08.899 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:09.181 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:10.186 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:10.187 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:10.187 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:10.439 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:11.442 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:11.442 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:11.443 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:11.656 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:12.732 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:12.732 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:12.732 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:13.393 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:14.394 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:14.395 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:14.395 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:14.485 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:15.486 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:15.486 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:15.486 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:15.653 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:16.655 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:16.655 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:16.655 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:16.749 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:17.750 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:17.750 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:17.750 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:18.017 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:19.018 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:19.018 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:19.018 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:19.121 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:20.122 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:20.123 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:20.123 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:20.255 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:21.258 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:21.258 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:21.258 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:21.388 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:22.390 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:22.390 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:22.390 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:23.027 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:24.027 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:24.028 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:24.028 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:24.347 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:25.359 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:25.359 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:25.359 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:25.481 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:26.545 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:26.545 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:26.548 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:26.665 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:27.682 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:27.682 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:27.683 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:27.798 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:28.800 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:28.800 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:28.800 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:29.040 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:30.044 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:30.044 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:30.045 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:30.290 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:31.290 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:31.290 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:31.290 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:31.411 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:32.444 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:32.445 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:32.445 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:33.615 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:34.622 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:34.623 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:34.623 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:34.731 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:35.734 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:35.735 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:35.735 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:35.829 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:36.830 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:36.830 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:36.830 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:36.913 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:55:37.914 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:55:37.914 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:55:37.914 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:55:38.188 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:56:08.021 ERROR    Connection attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> timed out
+12-04-2024:10:56:08.021 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: timeout
+12-04-2024:10:56:08.021 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:56:08.147 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:56:11.154 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:56:11.154 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:56:11.154 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:56:11.258 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:56:12.260 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:56:12.261 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:56:12.261 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:56:13.058 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:56:14.113 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:56:14.113 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:56:14.113 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:56:14.224 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:56:15.226 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:56:15.226 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:56:15.227 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:56:15.505 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:56:16.506 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:56:16.506 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:56:16.506 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:56:16.610 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:56:24.578 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:56:24.578 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:56:24.578 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:56:24.825 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:56:27.842 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:56:27.842 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:56:27.843 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:56:27.987 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:56:28.988 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:56:28.988 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:56:28.990 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:56:29.080 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:56:32.086 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:56:32.087 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:56:32.087 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:56:32.178 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:56:33.178 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:56:33.178 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:56:33.178 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:56:33.348 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:56:48.386 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:56:48.386 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:56:48.386 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:56:48.618 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:56:48.849 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:56:48.849 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:56:48.850 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:56:49.652 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:56:52.695 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:56:52.695 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:56:52.695 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:56:54.216 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:56:55.218 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:56:55.218 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:56:55.218 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:56:55.387 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:56:56.385 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:56:56.385 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:56:56.390 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:56:56.491 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:56:59.971 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:56:59.971 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:56:59.971 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:00.146 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:01.148 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:01.148 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:01.148 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:01.256 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:02.258 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:02.258 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:02.258 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:02.381 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:03.382 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:03.382 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:03.383 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:03.475 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:04.478 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:04.478 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:04.478 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:04.721 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:11.754 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:11.754 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:11.755 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:11.847 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:12.878 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:12.878 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:12.878 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:13.169 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:14.170 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:14.171 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:14.171 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:14.278 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:15.278 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:15.279 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:15.279 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:15.516 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:16.524 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:16.524 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:16.525 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:16.816 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:17.817 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:17.818 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:17.818 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:17.917 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:18.919 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:18.919 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:18.920 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:19.042 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:20.046 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:20.046 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:20.046 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:20.168 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:21.171 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:21.171 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:21.171 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:22.209 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:23.451 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:23.451 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:23.451 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:23.616 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:24.618 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:24.618 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:24.619 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:27.987 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:28.992 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:28.992 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:28.992 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:29.075 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:32.082 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:32.082 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:32.083 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:32.199 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:33.202 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:33.203 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:33.203 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:33.364 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:34.367 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:34.367 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:34.368 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:34.634 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:35.653 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:35.654 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:35.654 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:36.301 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:56.312 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:56.312 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:56.312 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:57:57.302 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:57:58.991 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:57:58.992 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:57:58.992 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:00.108 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:01.106 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:01.106 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:01.106 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:01.321 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:02.331 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:02.331 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:02.332 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:03.250 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:04.252 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:04.252 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:04.252 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:04.414 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:05.416 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:05.416 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:05.417 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:05.514 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:06.524 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:06.524 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:06.524 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:06.724 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:07.726 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:07.726 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:07.726 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:07.891 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:22.963 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:22.964 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:22.964 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:23.215 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:24.336 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:24.336 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:24.337 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:24.437 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:25.439 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:25.439 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:25.440 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:26.200 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:27.360 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:27.360 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:27.361 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:28.060 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:35.077 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:35.078 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:35.080 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:35.670 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:36.685 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:36.685 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:36.685 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:37.530 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:39.007 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:39.008 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:39.008 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:39.326 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:40.333 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:40.333 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:40.333 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:40.484 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:41.486 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:41.486 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:41.488 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:41.693 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:43.398 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:43.398 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:43.399 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:45.227 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:46.230 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:46.230 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:46.230 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:46.371 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:47.453 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:47.490 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:47.490 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:47.724 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:48.916 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:48.917 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:48.917 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:49.028 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:50.041 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:50.041 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:50.041 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:50.167 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:51.170 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:51.171 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:51.171 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:51.287 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:52.316 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:52.317 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:52.317 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:52.466 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:53.921 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:53.921 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:53.921 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:57.120 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:58.271 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:58.271 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:58.271 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:58.499 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:58:58.520 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:58:58.521 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:58:58.521 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:58:59.807 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:59:00.960 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:59:00.960 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:59:00.961 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:59:01.401 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:59:02.425 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:59:02.425 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:59:02.425 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:59:03.445 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:59:06.450 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:59:06.451 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:59:06.451 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:59:12.034 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:59:13.676 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:59:13.677 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:59:13.677 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:59:14.328 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:59:15.330 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:59:15.331 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:59:15.331 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:59:15.493 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:59:16.498 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:59:16.498 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:59:16.498 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:59:16.625 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:59:17.626 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:10:59:17.626 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:10:59:17.627 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:59:17.777 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:10:59:47.791 ERROR    Connection attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> timed out
+12-04-2024:10:59:47.791 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: timeout
+12-04-2024:10:59:47.791 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:10:59:47.966 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:11:00:03.216 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:11:00:03.217 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:11:00:03.217 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:11:00:04.684 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:11:00:08.245 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:11:00:08.245 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:11:00:08.245 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:11:00:08.727 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:11:00:12.098 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:11:00:12.099 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:11:00:12.099 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:11:00:48.308 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:11:00:48.309 ERROR    Connection attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> timed out
+12-04-2024:11:00:48.309 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: timeout
+12-04-2024:11:00:48.309 WARNING  Node 0 connection failed -- refreshing metadata
+12-04-2024:11:00:51.029 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:11:00:52.127 ERROR    Connect attempt to <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]> returned error 111. Disconnecting.
+12-04-2024:11:00:52.150 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. KafkaConnectionError: 111 ECONNREFUSED
+12-04-2024:11:00:52.151 WARNING  Node 0 connection failed -- refreshing metadata

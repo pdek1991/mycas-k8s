@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS-CAS Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner-top {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT-mpzONNdRWtZ7NKdkLlqTI3lP_IPWtLIUA&usqp=CAU');
+            background-size: cover;
+            height: 200px;
+            text-align: center;
+            color: white;
+            padding-top: 50px;
+        }
+
+        .logo img {
+            width: 100px;
+            height: auto;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            margin-bottom: 40px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        .submit {
+            background-color: darkgreen;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .submit:hover {
+            background-color: green;
+        }
+
+        /* Styling for the pop-up */
+        #popupMessage {
+            position: fixed;
+            top: 5%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #F3FF33;
+            color: rgb(3, 0, 0);
+            padding: 20px;
+            text-align: center;
+            z-index: 9999;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner-top">
+        <h1>SMS-CAS Interface</h1>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/en/d/de/Sony_TV_new.png" alt="SMS-CAS Logo">
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Generate OSM</h2>
+        <form action="/generate_osm" method="post">
+            <label for="message_id">Message ID:</label>
+            <input type="text" id="message_id" name="message_id" required>
+
+            <label for="message_text">Message Text:</label>
+            <input type="text" id="message_text" name="message_text" required>
+
+            <label for="device_id">Device ID:</label>
+            <input type="text" id="device_id" name="device_id" required>
+
+            <label for="expiry">Expiry:</label>
+            <input type="date" id="expiry" name="expiry" pattern="\d{4}-\d{2}-\d{2}" required>
+
+            <input type="submit" value="Submit" class="submit">
+        </form>
+
+        <h2>Add Entitlement</h2>
+        <form action="/addentitlement" method="post">
+            <label for="device_id">Device ID:</label>
+            <input type="text" id="device_id" name="device_id" required>
+
+            <label for="package_ids">Package IDs (separated by colon):</label>
+            <input type="text" id="package_ids" name="package_ids" required>
+
+            <label for="expiry">Expiry:</label>
+            <input type="date" id="expiry" name="expiry" required>
+
+            <input type="submit" value="Submit" class="submit">
+        </form>
+
+        <h2>Device Keys</h2>
+        <form action="/device_keys" method="post">
+            <label for="device_id">Device ID:</label>
+            <input type="text" id="device_id" name="device_id" required>
+
+            <label for="bskeys">BS Keys:</label>
+            <input type="text" id="bskeys" name="bskeys" required>
+
+            <input type="submit" value="Submit" class="submit">
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Function to display the pop-up message
+            function displayPopupMessage() {
+                // Get the flash message text from Flask
+                var flashMessage = "{{ get_flashed_messages()|first }}";
+
+                // Create a new div element for the pop-up
+                var popupDiv = $('<div>').attr('id', 'popupMessage')
+                                          .text(flashMessage);
+
+                // Add the pop-up div to the body of the page
+                $('body').prepend(popupDiv);
+
+                // Close the pop-up automatically after 10 seconds
+                setTimeout(function() {
+                    popupDiv.remove();
+                }, 5000);
+               }
+
+            // Call the function to display the pop-up message
+            displayPopupMessage();
+        });
+    </script>
+</body>
+</html>

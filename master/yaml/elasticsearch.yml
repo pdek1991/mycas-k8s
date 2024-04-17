@@ -1,0 +1,55 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: elasticsearch
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: elasticsearch
+  template:
+    metadata:
+      labels:
+        app: elasticsearch
+    spec:
+      containers:
+      - name: elasticsearch
+        image: elasticsearch:8.13.0
+        ports:
+        - containerPort: 9200
+        - containerPort: 9300
+        env:
+        - name: cluster.name
+          value: mycas-cluster
+        - name: discovery.type
+          value: single-node
+#        resources:
+#          requests:
+#            memory: "512Mi"   # Request 2GB of memory
+#            cpu: "500m"     # Request 500 milliCPU (0.5 CPU cores)
+#          limits:
+#            memory: "1Gi"   # Limit memory usage to 4GB
+#            cpu: "1"        # Limit CPU usage to 1 CPU core
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: elasticsearch
+spec:
+  selector:
+    app: elasticsearch
+  ports:
+  - name: http
+    protocol: TCP
+    port: 9200
+    targetPort: 9200
+    nodePort: 30003
+  - name: transport
+    protocol: TCP
+    port: 9300
+    targetPort: 9300
+    nodePort: 30004
+  type: NodePort

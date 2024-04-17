@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mycas-mysql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mycas_mysql
+  template:
+    metadata:
+      labels:
+        app: mycas_mysql
+    spec:
+      containers:
+      - name: mycas-mysql
+        image: pdek1991/mycas_db:latest
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          value: pdek
+        - name: MYSQL_DATABASE
+          value: cas
+        ports:
+        - containerPort: 3306
+        volumeMounts:
+        - name: mysql-data
+          mountPath: /var/lib/mysql
+      volumes:
+      - name: mysql-data
+        persistentVolumeClaim:
+          claimName: mysql-pvc    
+
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mycas-mysql-service
+spec:
+  ports:
+    - name: mysql
+      port: 3306
+      targetPort: 3306
+  selector:
+    app: mycas_mysql
+

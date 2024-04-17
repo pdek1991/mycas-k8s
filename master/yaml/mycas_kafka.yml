@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mycas-kafka
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mycas-kafka
+  template:
+    metadata:
+      labels:
+        app: mycas-kafka
+    spec:
+      containers:
+        - name: kafka
+          image: pdek1991/mycas_kafka
+          ports:
+            - containerPort: 9092
+              name: kafka
+          env:
+            - name: KAFKA_LISTENERS
+              value: "PLAINTEXT://0.0.0.0:9092"
+            - name: KAFKA_ADVERTISED_LISTENERS
+              value: "PLAINTEXT://mycas-kafka-service.default.svc.cluster.local:9092"
+            - name: KAFKA_BROKER_ID
+              value: "0"
+            - name: KAFKA_NUM_PARTITIONS
+              value: "1"
+            - name: KAFKA_AUTO_CREATE_TOPICS_ENABLE
+              value: "false"
+          volumeMounts:
+            - name: kafka-binaries
+              mountPath: /app/kafka/
+      volumes:
+      - name: kafka-binaries
+        persistentVolumeClaim:
+          claimName: kafka-pvc  
+
+      volumes:
+        - name: kafka-binaries
+          hostPath:
+            path: /app/yaml/kafka
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mycas-kafka-service
+spec:
+  selector:
+    app: mycas-kafka
+  ports:
+    - protocol: TCP
+      port: 9092
+      targetPort: 9092

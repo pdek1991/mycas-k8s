@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Socket.IO Example</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.0/socket.io.js" integrity="sha512-JupCdbN1ZMqR4+0E/IN+kXZbK0JAwJ60r1uJ3kyoqClF7nJGk+Cr5wCzH0mSPOIdiKfZEdlrJRbtLFb4uzI2Dw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div id="message"></div>
+
+    <script>
+        // Connect to the server-side Socket.IO
+        const socket = io();
+
+        // Listen for the 'update_ui' event from the server
+        socket.on('update_ui', (message) => {
+            // Update the UI with the received message
+            document.getElementById('message').innerText = message;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mycas-grafana
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: grafana
+  template:
+    metadata:
+      labels:
+        app: grafana
+    spec:
+      containers:
+      - name: grafana
+        image: grafana/grafana:latest
+        securityContext:
+          runAsUser: 472 
+        ports:
+        - containerPort: 3000
+#        volumeMounts:
+#          - name: grafana-volume
+#            mountPath: /var/lib/grafana/grafana.db
+#      volumes:
+#        - name: grafana-volume
+#          hostPath:
+#            path: /app/grafana/grafana.db
+#            type: File
+
+#        volumeMounts:
+#        - name: grafana-data
+#          mountPath: /var/lib/grafana/grafana.db
+#      volumes:
+#      - name: grafana-data
+#        persistentVolumeClaim:
+#          claimName: grafana-pvc
+
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: grafana-service
+spec:
+  selector:
+    app: grafana
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
+      nodePort: 30006  # Add this line to specify the NodePort
+  type: NodePort
+

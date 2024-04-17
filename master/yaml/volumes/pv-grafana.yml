@@ -1,0 +1,14 @@
+
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: grafana-pv
+spec:
+  capacity:
+    storage: 100Mi  # Adjust the storage capacity as needed
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: /app/grafana  # Path on the host machine where PV data will be stored
+  persistentVolumeReclaimPolicy: Retain
+

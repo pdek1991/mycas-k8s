@@ -1,0 +1,22 @@
+05-04-2024:04:58:29.737 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+05-04-2024:04:58:29.738 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Connection complete.
+05-04-2024:04:58:29.739 INFO     <BrokerConnection node_id=bootstrap-0 host=mycas-kafka-service:9092 <connected> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. 
+05-04-2024:05:52:36.133 INFO     Message sent to Kafka topic topic_mycas: 7090909090:313:test313131:44:2024-04-24
+05-04-2024:05:55:00.219 INFO     Message sent to Kafka topic topic_mycas: 7090909090:3134:test313131:44:2024-04-24
+05-04-2024:05:55:00.334 INFO     message_id: 3134, message_text: test313131, device_id: 7090909090, expiry: 2024-04-24
+05-04-2024:05:55:08.375 INFO     Message sent to Kafka topic topic_mycas:7090909090:HW_PUN:21:2024-04-30:2024-04-30
+05-04-2024:06:09:08.902 INFO     Message sent to Kafka topic topic_mycas:7090909090:HW_PUN:21:2024-04-30:2024-04-30
+05-04-2024:16:54:58.687 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+05-04-2024:16:54:58.706 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Connection complete.
+05-04-2024:16:54:58.706 INFO     <BrokerConnection node_id=bootstrap-0 host=mycas-kafka-service:9092 <connected> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. 
+05-04-2024:16:54:58.845 INFO     Message sent to Kafka topic topic_mycas: 7070707070:31313:414141test:44:2024-04-17
+05-04-2024:16:55:05.475 INFO     Message sent to Kafka topic topic_mycas: 7070707070:313131:414141test:44:2024-04-17
+05-04-2024:16:55:13.677 INFO     Message sent to Kafka topic topic_mycas: 7070707070:3131312:414141test:44:2024-04-17
+05-04-2024:16:55:19.632 INFO     Message sent to Kafka topic topic_mycas: 7070707070:31313122134:414141test:44:2024-04-17
+05-04-2024:16:55:31.356 INFO     Message sent to Kafka topic topic_mycas: 7070707070:5:414141test:44:2024-04-17
+05-04-2024:16:55:31.796 INFO     message_id: 5, message_text: 414141test, device_id: 7070707070, expiry: 2024-04-17
+05-04-2024:16:57:25.208 INFO     Closing the Kafka producer with 0 secs timeout.
+05-04-2024:16:57:25.209 INFO     Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+05-04-2024:16:59:36.888 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+05-04-2024:16:59:36.908 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Connection complete.
+05-04-2024:16:59:36.908 INFO     <BrokerConnection node_id=bootstrap-0 host=mycas-kafka-service:9092 <connected> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. 

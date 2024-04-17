@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mycas-webapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mycas-webapp
+  template:
+    metadata:
+      labels:
+        app: mycas-webapp
+    spec:
+      containers:
+      - name: mycas-webapp
+        image: pdek1991/mycas_webapp:v2
+        ports:
+        - containerPort: 9092   # Kafka port
+        - containerPort: 3306   # MySQL port
+        - containerPort: 8080   # Another service port
+        volumeMounts:
+          - name: webapp-volume
+            mountPath: /app/webapp
+      volumes:
+        - name: webapp-volume
+          hostPath:
+            path: /app/webapp
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mycas-webapp-service
+spec:
+  selector:
+    app: mycas-webapp
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+      nodePort: 30000
+

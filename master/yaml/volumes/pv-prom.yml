@@ -1,0 +1,14 @@
+
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: prometheus-pv
+spec:
+  capacity:
+    storage: 10Mi  # Adjust the storage capacity as needed
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: /app/prometheus  # Path on the host machine where PV data will be stored
+  persistentVolumeReclaimPolicy: Retain
+

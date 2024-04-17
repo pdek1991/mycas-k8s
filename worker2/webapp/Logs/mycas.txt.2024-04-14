@@ -1,0 +1,14 @@
+14-04-2024:05:42:21.781 INFO     Closing the Kafka producer with 0 secs timeout.
+14-04-2024:05:42:21.782 INFO     Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+14-04-2024:05:42:25.876 INFO     Closing the Kafka producer with 0 secs timeout.
+14-04-2024:05:42:25.877 INFO     Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+14-04-2024:05:42:42.151 INFO     Closing the Kafka producer with 0 secs timeout.
+14-04-2024:05:42:42.152 INFO     Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+14-04-2024:05:43:08.954 INFO     Closing the Kafka producer with 0 secs timeout.
+14-04-2024:05:43:08.954 INFO     Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+14-04-2024:05:56:40.489 INFO     Closing the Kafka producer with 0 secs timeout.
+14-04-2024:05:56:40.490 INFO     Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+14-04-2024:05:56:43.340 INFO     Closing the Kafka producer with 0 secs timeout.
+14-04-2024:05:56:43.340 INFO     Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+14-04-2024:05:57:15.983 INFO     Closing the Kafka producer with 0 secs timeout.
+14-04-2024:05:57:15.984 INFO     Proceeding to force close the producer since pending requests could not be completed within timeout 0.

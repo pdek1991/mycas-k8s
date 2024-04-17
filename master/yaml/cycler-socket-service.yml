@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: cycler-socket-service
+spec:
+  ports:
+    - name: cycler
+      port: 9999
+      targetPort: 9999
+  selector:
+    app: mycas-cycler
+

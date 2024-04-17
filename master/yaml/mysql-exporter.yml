@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql-exporter
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mysql-exporter
+  template:
+    metadata:
+      labels:
+        app: mysql-exporter
+    spec:
+      containers:
+      - name: mysql-exporter
+        image: prom/mysqld-exporter:v0.13.0
+        ports:
+        - containerPort: 9104
+        env:
+        - name: DATA_SOURCE_NAME
+          value: "root:pdek@tcp(mycas-mysql-service:3306)/"
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql-exporter
+spec:
+  selector:
+    app: mysql-exporter
+  ports:
+  - protocol: TCP
+    port: 9104
+    targetPort: 9104
+    
+
+

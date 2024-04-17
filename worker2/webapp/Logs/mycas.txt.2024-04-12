@@ -1,0 +1,189 @@
+13-04-2024:04:00:35.115 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+13-04-2024:04:00:35.154 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Connection complete.
+13-04-2024:04:00:35.154 INFO     <BrokerConnection node_id=bootstrap-0 host=mycas-kafka-service:9092 <connected> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. 
+13-04-2024:04:00:35.279 INFO     Message sent to Kafka topic topic_mycas: 7080908090:31313121:kafka:44:2024-04-27
+13-04-2024:04:00:35.791 INFO     message_id: 31313121, message_text: kafka, device_id: 7080908090, expiry: 2024-04-27
+13-04-2024:04:01:21.590 INFO     Message sent to Kafka topic topic_mycas: 7080908090:70909090906578:10:2037-12-31
+13-04-2024:04:01:21.720 INFO     device_id: 7080908090 bskeys: 70909090906578 
+13-04-2024:04:01:57.592 INFO     Message sent to Kafka topic topic_mycas: 7080808080:41414121:kafka:44:2024-04-26
+13-04-2024:04:01:57.682 INFO     message_id: 41414121, message_text: kafka, device_id: 7080808080, expiry: 2024-04-26
+13-04-2024:04:44:51.359 WARNING  <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connected> [IPv4 ('10.104.110.212', 9092)]> timed out after 30000 ms. Closing connection.
+13-04-2024:04:44:54.499 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connected> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. [Error 7] RequestTimedOutError: Request timed out after 30000 ms
+13-04-2024:05:07:31.352 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:07:31.363 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:07:35.275 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:07:35.276 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:07:41.542 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:07:41.542 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:07:47.607 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:07:47.608 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:07:53.772 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:07:53.772 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:07:59.915 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:07:59.915 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:08:06.010 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:08:06.010 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:08:12.195 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:08:12.195 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:08:18.260 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:08:18.260 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:08:24.495 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:08:24.495 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:08:30.560 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:08:30.561 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:08:36.635 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:08:36.636 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:08:42.722 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:08:42.723 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:08:49.101 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:08:49.101 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:08:55.175 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:08:55.175 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:09:01.241 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:09:01.242 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:09:07.305 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:09:07.307 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:09:13.383 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:09:13.383 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:09:19.459 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:09:19.459 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:09:25.521 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:09:25.521 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:09:32.391 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:09:32.392 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:09:38.923 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:09:38.924 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:09:45.299 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:09:45.299 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:09:51.363 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:09:51.363 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:09:57.425 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:09:57.425 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:10:03.492 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:10:03.492 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:10:09.571 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:10:09.571 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:10:15.633 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:10:15.633 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:10:21.735 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:10:21.736 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:10:27.805 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:10:27.805 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:10:33.890 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:10:33.890 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:10:39.955 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:10:39.955 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:10:46.051 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:10:46.051 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:10:52.880 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:10:52.881 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:10:59.073 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:10:59.073 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:11:05.141 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:11:05.141 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:11:11.217 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:11:11.217 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:11:17.281 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:11:17.281 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:11:23.359 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:11:23.359 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:11:29.673 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:11:29.674 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:11:35.806 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:11:35.806 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:11:42.215 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:11:42.215 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:11:48.279 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:11:48.280 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:11:54.359 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:11:54.359 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:12:00.427 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:12:00.427 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:12:06.491 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:12:06.492 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:12:12.562 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:12:12.562 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:12:18.637 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:12:18.638 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:12:25.077 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:12:25.077 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:12:31.163 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:12:31.164 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:12:37.393 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:12:37.393 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:12:43.457 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:12:43.457 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:12:49.527 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:12:49.527 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:12:55.589 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:12:55.589 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:13:02.207 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:13:02.207 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:13:08.274 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:13:08.276 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:13:14.339 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:13:14.339 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:13:20.401 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:13:20.402 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:13:26.482 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:13:26.482 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:13:32.810 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:13:32.811 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:13:39.096 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:13:39.096 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:13:45.113 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:13:45.113 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:13:51.204 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:13:51.204 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:13:57.257 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:13:57.258 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:14:03.320 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:14:03.321 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:14:09.391 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:14:09.391 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:14:15.461 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:14:15.461 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:14:21.547 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:14:21.548 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:14:27.683 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:14:27.685 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:14:33.778 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:14:33.779 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:14:39.847 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:14:39.848 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:14:45.915 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:14:45.915 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:14:52.072 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:14:52.072 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:14:58.135 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:14:58.135 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:15:04.231 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:15:04.231 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:15:10.293 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:15:10.293 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:15:16.359 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:15:16.359 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:15:22.627 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:15:22.627 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:15:29.897 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:15:29.897 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:15:35.975 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:15:35.975 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:15:42.045 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:15:42.046 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:15:48.109 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:15:48.109 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:15:54.183 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:15:54.184 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:16:00.249 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:16:00.249 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:16:06.341 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:16:06.341 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:16:12.413 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:16:12.413 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:16:19.178 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:16:19.178 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:16:25.242 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:16:25.242 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)
+13-04-2024:05:16:31.307 WARNING  DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+13-04-2024:05:16:31.307 ERROR    DNS lookup failed for mycas-kafka-service.default.svc.cluster.local:9092 (AddressFamily.AF_UNSPEC)

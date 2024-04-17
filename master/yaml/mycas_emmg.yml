@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mycas-emmg
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mycas-emmg
+  template:
+    metadata:
+      labels:
+        app: mycas-emmg
+    spec:
+      containers:
+        - name: mycas-emmg
+          image: pdek1991/mycas_emmg:v2
+          volumeMounts:
+          - name: emmg-volume
+            mountPath: /app/emmg
+      volumes:
+        - name: emmg-volume
+          hostPath:
+            path: /app/emmg

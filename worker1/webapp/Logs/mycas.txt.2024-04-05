@@ -1,0 +1,5 @@
+12-04-2024:06:12:26.891 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: connecting to mycas-kafka-service.default.svc.cluster.local:9092 [('10.104.110.212', 9092) IPv4]
+12-04-2024:06:12:26.924 INFO     <BrokerConnection node_id=0 host=mycas-kafka-service.default.svc.cluster.local:9092 <connecting> [IPv4 ('10.104.110.212', 9092)]>: Connection complete.
+12-04-2024:06:12:26.925 INFO     <BrokerConnection node_id=bootstrap-0 host=mycas-kafka-service:9092 <connected> [IPv4 ('10.104.110.212', 9092)]>: Closing connection. 
+12-04-2024:07:14:39.650 INFO     Closing the Kafka producer with 0 secs timeout.
+12-04-2024:07:14:39.654 INFO     Proceeding to force close the producer since pending requests could not be completed within timeout 0.

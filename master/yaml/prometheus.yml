@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prometheus
+  labels:
+    app: prometheus
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: prometheus
+  template:
+    metadata:
+      labels:
+        app: prometheus
+    spec:
+      containers:
+      - name: prometheus
+        image: prom/prometheus  # Replace with desired image
+        ports:
+        - containerPort: 9090
+        volumeMounts:
+        - name: config-volume
+          mountPath: /etc/prometheus/prometheus.yml
+      volumes:
+      - name: config-volume
+        hostPath:
+          path: /app/prometheus/prometheus.yml
+          type: File
+
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: prometheus-service  # Replace with your service name
+spec:
+  selector:
+    app: prometheus
+  ports:
+  - protocol: TCP
+    port: 9090  # Target port inside the pod
+    targetPort: 9090
+    nodePort: 30007  # NodePort for external access
+  type: NodePort

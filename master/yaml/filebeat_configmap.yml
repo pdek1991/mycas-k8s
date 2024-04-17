@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: filebeat-config
+data:
+  filebeat.yml: |
+    filebeat.config:
+      modules:
+        path: /etc/filebeat/modules.d/*.yml
+        reload.enabled: false
+
+    filebeat.autodiscover:
+      providers:
+        - type: kubernetes
+          hints.enabled: true
+
+    output.elasticsearch:
+      hosts: ["elasticsearch:9200"]
+      username: elastic
+      password: elastic
+
+    # Add the Kubernetes module configuration
+    filebeat.modules:
+      - module: kubernetes
+        enabled: true
+        logs:
+          - container:
+              ids:
+                - "*"
